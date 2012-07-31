@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, include, url
+from tasks.api import API as tasks
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -7,6 +8,7 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
 	(r'^', include('tasks.urls', namespace='tasks')),
     (r'^accounts/', include('userena.urls')),
+    (r'^api/', include(tasks.urls)),
     # Examples:
     # url(r'^$', 'todo.views.home', name='home'),
     # url(r'^todo/', include('todo.foo.urls')),
