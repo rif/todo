@@ -4,652 +4,92 @@
 		"selected_items":
 		[
 			[
-				"rpc",
-				"rpc_encoding	string ν"
+				"end",
+				"endblock"
 			],
 			[
-				"mediator_e",
-				"mediator_rpc_encoding	 ν"
+				"s",
+				"size"
 			],
 			[
-				"me",
-				"mediator_skipdb	built-in ν"
+				"hi",
+				"history"
 			],
 			[
-				"sc",
-				"scheduler	struct ʈ"
+				"order",
+				"order"
 			],
 			[
-				"GetCostsFrom",
-				"GetCostsFromRater	cc *timespans.CallCost, err error ƒ"
+				"Menu",
+				"MenuOfTheDay"
 			],
 			[
-				"Ge",
-				"GetCostsFromRater	cc *timespans.CallCost, err error ƒ"
+				"menu",
+				"menu_of_the_day"
 			],
 			[
-				"T",
-				"Timespans	[]*timespans.TimeSpan ν"
+				"topp",
+				"topping"
 			],
 			[
-				"c",
-				"connector	sessionmanager.Connector ν"
+				"desire",
+				"desired_delivery_time"
 			],
 			[
-				"M",
-				"Month	time.Month ƒ"
+				"req",
+				"request"
 			],
 			[
-				"rat",
-				"rater_balancer	 ν"
+				"endi",
+				"endif"
 			],
 			[
-				"C",
-				"Connector	interface ¡"
-			],
-			[
-				"sm",
-				"sm_rater	 ν"
-			],
-			[
-				"rater",
-				"rater_balancer	 ν"
-			],
-			[
-				"baln",
-				"balancer_enabled	built-in ν"
-			],
-			[
-				"stat",
-				"stats_enabled	built-in ν"
-			],
-			[
-				"tim",
-				"timespans	[]*TimeSpan ν"
-			],
-			[
-				"Se",
-				"SetActionTimings	error ƒ"
-			],
-			[
-				"S",
-				"Status	err error ƒ"
-			],
-			[
-				"Res",
-				"Responder	struct ʈ"
-			],
-			[
-				"rep",
-				"reply	interface ¡"
-			],
-			[
-				"Trim",
-				"TrimLeft	string ƒ"
-			],
-			[
-				"Cal",
-				"CallCost	struct ʈ"
-			],
-			[
-				"Call",
-				"CallDescriptor	struct ʈ"
-			],
-			[
-				"res",
-				"response	interface{} ν"
-			],
-			[
-				"re",
-				"responder	*timespans.Responder ν"
-			],
-			[
-				"rate",
-				"rater_enabled	built-in ν"
-			],
-			[
-				"Pa",
-				"ParseDuration	time.Duration, error ƒ"
-			],
-			[
-				"N",
-				"Now	time.Time ƒ"
-			],
-			[
-				"St",
-				"StartTime	string ν"
-			],
-			[
-				"bal",
-				"balancer_standalone	built-in ν"
-			],
-			[
-				"Re",
-				"Responder	struct ʈ"
-			],
-			[
-				"Ses",
-				"SessionDelegate	interface ¡"
-			],
-			[
-				"De",
-				"DebitCents	err error ƒ"
-			],
-			[
-				"sto",
-				"storageGetter	StorageGetter ν"
-			],
-			[
-				"P",
-				"PricedUnits	float64 ν"
-			],
-			[
-				"ra",
-				"rateIncrements	string ν"
-			],
-			[
-				"start",
-				"startSessionManager	 ƒ"
-			],
-			[
-				"med",
-				"mediator_enabled	built-in ν"
-			],
-			[
-				"ba",
-				"balancer_standalone	built-in ν"
-			],
-			[
-				"con",
-				"configFn	string ν"
-			],
-			[
-				"sm_",
-				"sm_api_server	 ν"
-			],
-			[
-				"redis",
-				"redis_db	 ν"
-			],
-			[
-				"medi",
-				"mediator_user	 ν"
-			],
-			[
-				"li",
-				"listenToHttpRequests	 ƒ"
-			],
-			[
-				"scheduler",
-				"scheduler_standalone	built-in ν"
-			],
-			[
-				"GetS",
-				"GetString	value string, err error ƒ"
-			],
-			[
-				"Spri",
-				"Sprintf	string ƒ"
-			],
-			[
-				"imp",
-				"import	import (...) ʂ"
-			],
-			[
-				"E",
-				"Err	error ƒ"
-			],
-			[
-				"In",
-				"IntSlice	[]int ʈ"
-			],
-			[
-				"uc",
-				"ucTempMap	map[string]*UnitsCounter ν"
-			],
-			[
-				"A",
-				"Account	string ν"
-			],
-			[
-				"ac",
-				"actions	map[string][]*timespans.Action ν"
-			],
-			[
-				"loadRate",
-				"loadRateTimings	 ƒ"
-			],
-			[
-				"timi",
-				"timings	map[string][]*Timing ν"
-			],
-			[
-				"des",
-				"destinations	[]*timespans.Destination ν"
-			],
-			[
-				"act",
-				"actionsFn	*string ν"
-			],
-			[
-				"op",
-				"openStringCSVReader	csvReader *csv.Reader, fp *os.File, err error ƒ"
-			],
-			[
-				"R",
-				"NewReader	*strings.Reader ƒ"
-			],
-			[
-				"accou",
-				"accountactionsFn	*string ν"
-			],
-			[
-				"ratin",
-				"ratingprofilesFn	*string ν"
-			],
-			[
-				"rates",
-				"ratesFn	*string ν"
-			],
-			[
-				"w",
-				"weight	string ν"
-			],
-			[
-				"Gu",
-				"GuardGetCost	reply *timespans.CallCost, err error ƒ"
-			],
-			[
-				"Add",
-				"AddRecievedCallSeconds	err error ƒ"
-			],
-			[
-				"Debit",
-				"DebitSeconds	err error ƒ"
-			],
-			[
-				"Deb",
-				"DebitSMS	left float64, err error ƒ"
-			],
-			[
-				"Debi",
-				"DebitCents	left float64, err error ƒ"
-			],
-			[
-				"Get",
-				"GetMaxSessionTime	seconds float64, err error ƒ"
-			],
-			[
-				"Acc",
-				"AccLock	*timespans.AccountLock ν"
-			],
-			[
-				"lo",
-				"lock	chan *Command ν"
-			],
-			[
-				"Ac",
-				"ActionTrigger	struct ʈ"
-			],
-			[
-				"TRAFFIC",
-				"TRAFFIC_TIME	 Ɩ"
-			],
-			[
-				"Mi",
-				"Millisecond	 Ɩ"
-			],
-			[
-				"st",
-				"standalone	*bool ν"
-			],
-			[
-				"fre",
-				"freeswitch	*bool ν"
-			],
-			[
-				"MI",
-				"MinuteBucket	struct ʈ"
-			],
-			[
-				"TR",
-				"TRAFFIC_TIME	 Ɩ"
-			],
-			[
-				"av",
-				"availableSeconds	 ν"
-			],
-			[
-				"top",
-				"topupResetAction	err error ƒ"
-			],
-			[
-				"UB",
-				"UB_TYPE_POSTPAID	 Ɩ"
-			],
-			[
-				"t",
-				"Type	string ν"
-			],
-			[
-				"reset",
-				"resetTriggersAction	err error ƒ"
-			],
-			[
-				"MIN",
-				"MINUTES_OUT	 Ɩ"
-			],
-			[
-				"Un",
-				"UnitsCounter	struct ʈ"
-			],
-			[
-				"gene",
-				"genericMakeNegative	 ƒ"
-			],
-			[
-				"generi",
-				"genericReset	 ƒ"
-			],
-			[
-				"Ex",
-				"Executed	bool ν"
-			],
-			[
-				"Set",
-				"SetUserBalance	error ƒ"
-			],
-			[
-				"Ma",
-				"Marshaler	interface ¡"
-			],
-			[
-				"Act",
-				"Action	struct ʈ"
+				"use",
+				"username"
 			],
 			[
 				"u",
-				"unitsCounter	*UnitsCounter ν"
+				"user"
 			],
 			[
-				"func",
-				"func	func ([receiver]) {...} ʂ"
-			],
-			[
-				"Tr",
-				"TrimRight	string ƒ"
-			],
-			[
-				"a",
-				"ActionTriggers	ActionTriggerPriotityList ν"
-			],
-			[
-				"ap",
-				"ap_string	string ν"
-			],
-			[
-				"W",
-				"Weight	float64 ν"
-			],
-			[
-				"We",
-				"Weekday	int ʈ"
-			],
-			[
-				"Mo",
-				"Month	int ʈ"
-			],
-			[
-				"Des",
-				"Destination	struct ʈ"
-			],
-			[
-				"Acti",
-				"ActionPriotityList	[]*Action ʈ"
-			],
-			[
-				"ActionTiming",
-				"ActionTimingPriotityList	[]*timespans.ActionTiming ʈ"
-			],
-			[
-				"g",
-				"GetDestination	*Destination, error ƒ"
-			],
-			[
-				"D",
-				"Destination	struct ʈ"
-			],
-			[
-				"PRE",
-				"UB_TYPE_PREPAID	 Ɩ"
-			],
-			[
-				"F",
-				"February	 Ɩ"
-			],
-			[
-				"J",
-				"January	 Ɩ"
-			],
-			[
-				"ActionR",
-				"ActionTriggerPriotityList	[]*ActionTrigger ʈ"
-			],
-			[
-				"Ub",
-				"UserBalance	struct ʈ"
-			],
-			[
-				"j",
-				"jbm	*JSONBufMarshaler ν"
-			],
-			[
-				"Loc",
-				"Location	*time.Location ƒ"
-			],
-			[
-				"Go",
-				"GOBMarshaler	struct ʈ"
-			],
-			[
-				"Mar",
-				"MarshalStrategy	struct ʈ"
-			],
-			[
-				"e",
-				"expcted	 ν"
-			],
-			[
-				"ava",
-				"availableCredit	 ν"
-			],
-			[
-				"AddInterval",
-				"AddIntervalIfNotPresent	 ƒ"
-			],
-			[
-				"B",
-				"Bytes	[]byte, error ƒ"
-			],
-			[
-				"b",
-				"Bytes	[]byte, error ƒ"
-			],
-			[
-				"time",
-				"timespans	 package ρ"
-			],
-			[
-				"TY",
-				"UB_TYPE_PREPAID	 Ɩ"
-			],
-			[
-				"Min",
-				"MinuteBucket	struct ʈ"
-			],
-			[
-				"New",
-				"NewTimer	*time.Timer ƒ"
-			],
-			[
-				"I",
-				"IsZero	bool ƒ"
-			],
-			[
-				"l",
-				"Location	*time.Location ƒ"
-			],
-			[
-				"L",
-				"Location	*time.Location ƒ"
-			],
-			[
-				"tes",
-				"testTime	time.Time ν"
-			],
-			[
-				"Da",
-				"Day	int ƒ"
-			],
-			[
-				"U",
-				"UTC	*time.Location ν"
+				"inpu",
+				"input"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "todo/settings.py",
-			"settings":
-			{
-				"buffer_size": 3844,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "todo/urls.py",
-			"settings":
-			{
-				"buffer_size": 651,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tasks/urls.py",
-			"settings":
-			{
-				"buffer_size": 254,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "tasks/views.py",
 			"settings":
 			{
-				"buffer_size": 94,
+				"buffer_size": 484,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "authentication/models.py",
+			"file": "templates/tasks/index.html",
 			"settings":
 			{
-				"buffer_size": 342,
+				"buffer_size": 1571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 3289,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Packages/GoSublime/GsShell.sublime-build",
+	"build_system": "",
 	"command_palette":
 	{
-		"height": 180.0,
+		"height": 347.0,
 		"selected_items":
 		[
-			[
-				"lowe",
-				"Convert Case: Lower Case"
-			],
-			[
-				"low",
-				"Convert Case: Lower Case"
-			],
-			[
-				"GoSublime: ",
-				"GoSublime: Show call tip"
-			],
-			[
-				"space",
-				"Indentation: Convert to Spaces"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
-				"Package Control: in",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
-			[
-				"pac",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: inst",
-				"Package Control: Install Package"
-			],
-			[
-				"upp",
-				"Convert Case: Upper Case"
-			],
-			[
-				"pacakge",
-				"Package Control: Install Package"
-			],
-			[
-				"pacak",
-				"Package Control: Remove Package"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"up",
-				"Convert Case: Upper Case"
-			],
-			[
-				"git",
-				"Git: Commit"
-			],
-			[
-				"upda",
-				"Package Control: Upgrade/Overwrite All Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"Insta",
-				"Package Control: Install Package"
-			],
-			[
-				"go",
-				"Package Control: List Packages"
-			],
 			[
 				"spac",
 				"Indentation: Convert to Spaces"
@@ -663,7 +103,15 @@
 				"Package Control: Install Package"
 			],
 			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
 				"spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"space",
 				"Indentation: Convert to Spaces"
 			],
 			[
@@ -679,7 +127,7 @@
 				"Indentation: Convert to Spaces"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -696,138 +144,138 @@
 	},
 	"file_history":
 	[
-		"/home/rif/Documents/webframeworks/todo/manage.py",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/rater_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/actions_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/sessiondelegate.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/action_timing.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/callcost.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/registration.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/balancer.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/balancer_standalone.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/test.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/full.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/scheduler.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/mediator.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/rater.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/rater_standalone.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/session_manager.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/storage_redis.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/callcost_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/interval.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/calldesc.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/cgr-loader.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/helpers.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/interval_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/cgr-rater.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/scheduler.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/storage_interface.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/activationperiod_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	callcost_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-console/cgr-console.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/balancer/balancer.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/Rates.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/fssessionmanager.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/sessionmanager.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/dateseries.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/sessionmanager.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/accountlock.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/action.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/rates.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/timespans_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/timespans.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/cgr-mediator.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/responder_rpc.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/responder_direct.go",
-		"/home/rif/.Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/mediator.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/conf/scheduler_standalone.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/responder_interface.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/rpc_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/direct_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/rpc_responder_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/responder_rpc_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/cgrates.config",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/status_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/balancer.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/rater.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/logger.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-rater/http_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/importer.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-mediator/cgr-mediator.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-sessionmanager/cgr-sessionmanager.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/http_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/registration.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-scheduler/actiontimings_webapp.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/templates/actiontimings.html",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-scheduler/cgr-scheduler.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/userbalance.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/docs/tutorial.rst",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/actions.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	actions_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/templates/base.html",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/templates/status.html",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/status_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/cgr-balanncer.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/event.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/postgreslogger.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/fsevent.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/session.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/docs/apicalls.rst",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/docs/importing.rst",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/docs/intro.rst",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/calldesc_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/userbalance_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/units_counter.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/units_counter_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/Actions.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/rpc_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/action_trigger.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/loader_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/ActionTriggers.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/cgr-balancer_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/destinations.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/	loader_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/docs/index.rst",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/accountlock_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/RateTimings.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/stress/cgr-balancerstress/cgr-balancerstress.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/storage_redix.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/minute_buckets_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/accountlock/accountlock.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/userlock/userlock.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/minute_buckets.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	userbalance_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/stress/cgr-raterstress/cgr-raterstress.go",
-		"/home/rif/Documents/limbaje/go/src/pkg/crypto/des/cipher.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/stress/cgr-spansstress/cgr-spansstress.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-balancer/jsonrpc_responder.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/destinations_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/sessionmanager/fssessionmanager_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/activationperiod.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/dateseries_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	minute_buckets_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/stress/cgr-balancerstress/cgr-balancerstress.py",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/ActionTimings.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/actions.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/RatingProfiles.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/minute_bucket_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	calldesc_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/	activationperiod_test.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/Destinations.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/AccountActions.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/Timings.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/data/RatesTimings.csv",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/balancer/balancer_test.go",
-		"/home/rif/.Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/timespans/tariff_plans.go",
-		"/home/rif/Documents/prog/go/src/github.com/cgrates/cgrates/cmd/cgr-loader/budgets.go"
+		"/home/rif/Documents/webframeworks/bucatar/settings_prod.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/header.html",
+		"/home/rif/Documents/webframeworks/bucatar/menu/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/base_alt.html",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/admin.py",
+		"/home/rif/Documents/webframeworks/bucatar/order/admin.py",
+		"/home/rif/Documents/webframeworks/bucatar/order/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/order/models.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile.html",
+		"/home/rif/Documents/webframeworks/bucatar/sentry.conf.py",
+		"/home/rif/Documents/webframeworks/bucatar/apache/supervizor/sentry.conf",
+		"/home/rif/Documents/webframeworks/bucatar/click2eat.pp",
+		"/home/rif/Documents/webframeworks/bucatar/rsv/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/rsv/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/rsv/index.html",
+		"/home/rif/Documents/webframeworks/bucatar/order/shopping_service.py",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/models.py",
+		"/home/rif/Documents/webframeworks/bucatar/settings_dev.py",
+		"/home/rif/Documents/webframeworks/bucatar/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/userprofiles/deliveryaddress_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/media/sass/screen.sass",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/shopping_cart.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/restaurant/unit_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/order/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/order/templatetags/order_tags.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/registration_form.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/restaurant_order_detail.html",
+		"/home/rif/factorial.go",
+		"/home/rif/Documents/webframeworks/bucatar/templates/restaurant/unit_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/shopping_cart.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/reclame.html",
+		"/home/rif/Documents/webframeworks/bucatar/userprofiles/models.py",
+		"/home/rif/Documents/webframeworks/bucatar/menu/models.py",
+		"/home/rif/Documents/webframeworks/bucatar/order/shopping_cart.py",
+		"/home/rif/Documents/webframeworks/bucatar/menu/admin.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/menu/menu_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/admin/base_site.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/menu/item_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/userprofiles/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/messages.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/menu/daily_menu.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/userprofiles/deliveryaddress_form.html",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/templatetags/units.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/biblion/blog_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/biblion/blog_post.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/comments/base.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/order_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/profiles/profile_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/timer.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/restaurant/index.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/footer.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/wheel/random_item.html",
+		"/home/rif/Documents/webframeworks/bucatar/media/sass/ie.sass",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/confirmation_email.html",
+		"/home/rif/Documents/webframeworks/bucatar/order/forms.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/send_confirmation.html",
+		"/home/rif/Documents/webframeworks/bucatar/bonus/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/bonus/history.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/restaurant_order_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/order/tests.py",
+		"/home/rif/Documents/webframeworks/bucatar/bonus/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/bonus/tests.py",
+		"/home/rif/Documents/webframeworks/bucatar/bonus/models.py",
+		"/home/rif/Documents/webframeworks/bucatar/test_run.sh",
+		"/home/rif/Documents/webframeworks/bucatar/mobile/tests.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/newsletter/subscription_activate.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/newsletter/subscription_subscribe.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/newsletter/common.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/newsletter/newsletter_list.html",
+		"/home/rif/Documents/webframeworks/bucatar/userprofiles/admin.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/newsletter/newsletter_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/forms.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/order_list_div.html",
+		"/home/rif/Documents/webframeworks/bucatar/dashboard.py",
+		"/home/rif/Documents/webframeworks/bucatar/create_graphs.sh",
+		"/home/rif/Documents/webframeworks/bucatar/userprofiles/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/menu/daily_menu_list.html",
+		"/home/rif/Documents/webframeworks/oiad/oiad.sublime-project",
+		"/home/rif/Documents/webframeworks/bucatar/menu/templatetags/item_trans.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/search.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/menu.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/mail_order_detail.txt",
+		"/home/rif/.Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/home/rif/Documents/webframeworks/bucatar/menu/templatetags/item_translations.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/restaurant_order_list_div.html",
+		"/home/rif/Documents/webframeworks/bucatar/mobile/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/item_detail.html",
+		"/home/rif/Documents/webframeworks/bucatar/order/tasks.py",
+		"/home/rif/Documents/webframeworks/bucatar/media/dependencies.txt",
+		"/home/rif/Documents/webframeworks/bucatar/templates/sidebar.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/order_cart.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/userprofiles/invite_friend.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/userprofiles/deliveryaddress_confirm_delete.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/userprofiles/invite_friend_form.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/500.html",
+		"/home/rif/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/rif/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/rif/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/rif/Documents/webframeworks/bucatar/userprofiles/forms.py",
+		"/home/rif/Documents/webframeworks/bucatar/wheel/views.py",
+		"/home/rif/Documents/webframeworks/bucatar/wheel/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/wheel/random_daily_menu.html",
+		"/home/rif/Documents/webframeworks/bucatar/media/css/css3buttons.css",
+		"/home/rif/Documents/webframeworks/bucatar/templates/menu/random_daily_menu.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/wheel/fortune.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/order/cart_name.html",
+		"/home/rif/Documents/webframeworks/bucatar/mobile/urls.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/login.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/page.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/home.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/mobile/units.html",
+		"/home/rif/Documents/webframeworks/bucatar/restaurant/tests.py",
+		"/home/rif/Documents/webframeworks/bucatar/menu/tests.py",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/activate.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/activation_complete.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/activation_email.txt",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/activation_email_subject.txt",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/login.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/logout.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_change_done.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_change_form.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_reset_complete.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_reset_confirm.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_reset_done.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_reset_email.html",
+		"/home/rif/Documents/webframeworks/bucatar/templates/registration/password_reset_form.html"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -841,134 +289,109 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"mentoria",
-			"hostort",
-			"RaterServer",
-			"127.0.0.1:2000",
-			"127.0.0.1:2001",
-			"false",
-			"rater_balancer_server",
-			"stats_listen",
-			"(&arg)",
-			"rs.Rpc",
-			"md",
-			"MonthDays",
-			"r.Rpc",
-			"RPCSessionDelegate",
-			"RPCBalancerSessionDelegate",
-			"r.bal",
-			"r.rpc",
-			"timespans.",
-			"replay",
-			"cd.",
-			"&cd",
-			"rpc",
-			"RpcResponder",
-			")\n",
-			"json",
-			"Shutdown",
-			"GetCost(timespans.CallDescriptor, *timespans.CallCost) error\nDebit(timespans.CallDescriptor, *float64) error\nDebitCents(timespans.CallDescriptor, *float64) error\nDebitSMS(timespans.CallDescriptor, *float64) error\nDebitSeconds(timespans.CallDescriptor, *float64) error\nGetMaxSessionTime(timespans.CallDescriptor, *float64) error\nAddRecievedCallSeconds(timespans.CallDescriptor, *float64) error\nStatus(timespans.CallDescriptor, *string) error\nShutdown(string, *string) error",
-			"GetCost",
-			"reply",
-			"cd",
-			"\"",
-			"//",
-			"=",
-			"127.0.0.1:1234",
-			"127.0.0.1:2000",
-			"false",
-			"err",
-			"#",
-			"Server",
-			"server",
-			"Server",
-			"server",
-			"w",
-			"Writer",
-			"w",
-			"log.",
-			"callC",
-			"separator",
+			"email",
+			"rave",
+			"-rc.2",
+			"rc.1",
+			"perce",
+			"profile",
+			"__user_has_profile",
+			"office",
+			"cache",
+			"session",
+			"carts",
+			"hide",
+			"incr",
+			"carts",
+			"count =",
+			"oc.",
+			"count",
+			"selectCart",
+			"pageLinks",
+			"itemTemplate",
+			"get_cart_name",
+			"%s:",
+			"user",
+			"pos",
+			"get_unit",
+			"pos",
+			"print",
+			"shc",
+			"set_count",
+			"clea",
+			"confirm-o",
+			"confirm_order",
+			"daily_menu",
+			"total",
+			"st",
+			"shopping_cart",
+			"auth",
+			"login",
+			"tiny",
+			"back",
+			"cac",
+			"item",
+			"continu",
+			"tabla",
+			"600",
+			"get_pro",
+			"400px",
+			"detail",
+			"pozrel",
+			"font-famil",
+			"'Cardo'",
+			"font-family",
+			"render_to_string",
+			"star",
+			"email",
+			"lang",
+			"float",
+			"MultilingualModel",
+			"} else {\n        $(\"#orderhistory\").slideToggle();\n      }",
+			"grapp",
+			"'CR'",
+			"_(",
+			"Bonus",
+			"tool",
+			"click",
+			"print",
+			"totalno",
+			"comanda",
+			"cart",
 			"*",
-			"Ponder",
-			"&Action{",
-			"countUni",
-			"\"_OUT\"",
-			"balanceM",
-			"defer fp.Close()",
-			",10",
-			"+ ",
-			"blaces",
-			"+----------+----------------+--------------+\n",
-			"test",
-			"TODO",
-			"UserLock",
-			"pipe",
-			"countUni",
-			"Reset",
-			".debitSMSBalance(",
-			".debitMoneyBalance(",
-			"MoneyBalance(",
-			"addMinuteBucket",
-			"if count",
-			"Form[\"direction\"]",
-			"Tenant: tenant[0]",
-			"tenant=vdf",
-			"heart",
-			"Topup",
-			"TestUserBalanceExecuteTriggeredActions",
-			"\"\n",
-			"{\n",
-			"<= ",
-			"2",
-			"resulte",
-			"|",
-			"is",
-			"debitSMSBuget",
-			"SMSBudget",
-			"storageGetter.SetUserBalance(ub)",
-			"[tenant]",
-			"Tenant,",
-			"\"Tenant\"",
-			"CstmId",
-			"DestinationPrefix",
-			"atpl",
-			"ub",
-			"			\n",
-			"getter",
-			"apl",
-			"}, SmsCredit: 100",
-			"rifsBalance.SmsCredit",
-			"getter, ",
-			"rifsBalance.BalanceMapr",
-			"rifsBalance.Credit",
-			"getter, _ := NewRedisStorage(\"tcp:127.0.0.1:6379\", 10)\n	defer getter.Close()",
-			"%q",
-			", ResetDayOfTheMonth: 10",
-			"Credit: 21",
-			"Credit: 21, ResetDayOfTheMonth: 10",
-			"Tarrif",
-			"\"rif\"",
-			"rif",
-			"retea",
-			"nationale",
-			"JSONBUfMarshaler",
-			"json",
-			"Exec",
-			"accountActions",
-			"broker",
-			"return",
-			"Months",
-			"Interva",
-			":%",
-			"RedisStorage",
-			"Sort",
-			"UB_TYPE_POSTPAID",
-			"postp",
-			"Months",
-			"Mon",
-			"Months",
-			"actionTimingQueue"
+			"geopy",
+			"invite",
+			"ajax",
+			"print",
+			"geolocated_",
+			"geolocated_add",
+			"invite-placeholder",
+			"friend",
+			"content",
+			"font",
+			"add_item",
+			"Bonus",
+			"tabla",
+			"false",
+			"desc",
+			"motd",
+			"CAc",
+			"cache",
+			"cacje",
+			"tip",
+			"2D7DC5",
+			"wheel",
+			"print",
+			"new order",
+			"console",
+			"input",
+			"cart-name-form",
+			"show-previous-link",
+			"failUnlessEqual",
+			"fail",
+			"failUnl",
+			"login",
+			"get_object_or_404"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -976,115 +399,8 @@
 		"regex": false,
 		"replace_history":
 		[
-			"host:port",
-			"test",
-			"true",
-			"arg",
-			"rs.Bal != nil",
-			"rs.Rpc",
-			"SessionDelegate",
-			"r.Bal",
-			"r.Rpc",
 			"",
-			"reply",
-			"arg.",
-			"&arg",
-			"r.rpc",
-			"Responder",
-			"",
-			"||",
-			"!=",
-			"true",
-			"_",
-			"//",
-			"logger.",
-			"OUTBOUND",
-			"if fp != nil {defer fp.Close()}",
-			"",
-			"AccountLock",
-			"queue",
-			".debitBalance(SMS, ",
-			".debitBalance(CREDIT, ",
-			"Balance(CREDIT, ",
-			"debitMinuteBucket",
-			"if count && amount > 0",
-			"r.Form[\"direction\"]",
-			"Direction: direction[0], Tenant: tenant[0], TOR: tor[0]",
-			"direction=out&tenant=vdf&tor=0",
-			"is",
-			";",
-			"result",
-			"debitSMSBalance",
-			"SMSBalance",
-			"",
-			"[\"tenant\"]",
-			"tenant,",
-			"tenant",
-			"Tenant",
-			"Destination",
-			"apl",
-			"storageGetter",
-			"atpl",
-			",SMS: 100}",
-			"rifsBalance.BalanceMap[SMS]",
-			"",
-			"rifsBalance.BalanceMap",
-			"rifsBalance.BalanceMapr[CREDIT]",
-			"",
-			"%v",
-			"",
-			"BalanceMap: map[string]float64{CREDIT: 21}",
-			"\"OUT:CUSTOMER_1:rif\"",
-			"RET",
-			"NAT",
-			"JSONBufMarshaler",
-			"rs.ms",
-			"RedixStorage",
-			"queue",
-			"actiontimingqueue",
-			"actionqueue",
-			"Weight",
-			"",
-			"Event",
-			"Dial",
-			"Responder",
-			"../data/test.kch",
-			"json",
-			"gob",
-			"json",
-			"ks",
-			"dec",
-			"enc",
-			"dec",
-			"enc",
-			"dec",
-			"enc",
-			"dec",
-			"enc",
-			"dec",
-			"enc",
-			"ks",
-			"rs.buf",
-			"rs.buf.Reset()",
-			"rs.buf",
-			"gob",
-			"json",
-			"SearchStorageForPrefix",
-			"gob",
-			"rs",
-			"storageGetter",
-			"bucketsorter",
-			"StorageGetter",
-			"is",
-			"StartTime",
-			"EndTime",
-			"StartTime",
-			"EndTime",
-			"StartTime",
-			"timespans",
-			"CallDescriptor",
-			"nts",
-			"2012",
+			"rc.2",
 			"Cardo",
 			"item",
 			"assertEqual"
@@ -1098,137 +414,88 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "todo/settings.py",
+					"file": "tasks/views.py",
 					"settings":
 					{
-						"buffer_size": 3844,
+						"buffer_size": 484,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1060,
-								1060
+								484,
+								484
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "todo/urls.py",
+					"file": "templates/tasks/index.html",
 					"settings":
 					{
-						"buffer_size": 651,
+						"buffer_size": 1571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								921,
+								921
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "tasks/urls.py",
+					"file": "templates/base.html",
 					"settings":
 					{
-						"buffer_size": 254,
+						"buffer_size": 3289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
+								3145,
+								3145
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tasks/views.py",
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "authentication/models.py",
-					"settings":
-					{
-						"buffer_size": 342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								341,
-								341
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1267,18 +534,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.GsComplete.completion-hint":
-	{
-		"height": 112.0
-	},
-	"output.GsDoc-output":
-	{
-		"height": 112.0
-	},
-	"output.exec":
-	{
-		"height": 200.0
-	},
 	"replace":
 	{
 		"height": 62.0
@@ -1290,116 +545,8 @@
 		"selected_items":
 		[
 			[
-				"cgr-r",
-				"cmd/cgr-rater/cgr-rater.go"
-			],
-			[
-				"resp",
-				"timespans/responder.go"
-			],
-			[
-				"inter",
-				"timespans/interval.go"
-			],
-			[
-				"rates",
-				"cmd/cgr-loader/rates.go"
-			],
-			[
-				"call",
-				"timespans/calldesc.go"
-			],
-			[
-				"act",
-				"timespans/action.go"
-			],
-			[
-				"actions",
-				"timespans/actions_test.go"
-			],
-			[
-				"use",
-				"timespans/userbalance.go"
-			],
-			[
-				"desc",
-				"timespans/calldesc.go"
-			],
-			[
-				"rater",
-				"cmd/cgr-rater/cgr-rater.go"
-			],
-			[
-				"lo",
-				"cmd/cgr-loader/cgr-loader.go"
-			],
-			[
-				"loade",
-				"cmd/cgr-loader/cgr-loader.go"
-			],
-			[
-				"strss",
-				"cmd/stress/cgr-spansstress/cgr-spansstress.go"
-			],
-			[
-				"stora",
-				"timespans/storage_interface.go"
-			],
-			[
-				"red",
-				"timespans/storage_redis.go"
-			],
-			[
-				"loa",
-				"cmd/cgr-loader/cgr-loader.go"
-			],
-			[
-				"stres",
-				"cmd/stress/cgr-spansstress/cgr-spansstress.go"
-			],
-			[
-				"cgr-lo",
-				"cmd/cgr-loader/cgr-loader.go"
-			],
-			[
-				"spa",
-				"cmd/stress/cgr-spansstress/cgr-spansstress.go"
-			],
-			[
-				"cgr-s",
-				"cmd/cgr-sessionmanager/cgr-sessionmanager.go"
-			],
-			[
-				"action",
-				"cmd/cgr-loader/actions.go"
-			],
-			[
-				"in",
-				"timespans/interval_test.go"
-			],
-			[
-				"tim",
-				"timespans/timespans.go"
-			],
-			[
-				"inte",
-				"timespans/interval.go"
-			],
-			[
-				"help",
-				"cmd/cgr-loader/helpers.go"
-			],
-			[
-				"cgr-se",
-				"cmd/cgr-sessionmanager/cgr-sessionmanager.go"
-			],
-			[
-				"cgr",
-				"bin/cgr-balancer"
-			],
-			[
-				"fse",
-				"sessionmanager/fsevent_test.go"
+				"mob",
+				"templates/mobile.html"
 			],
 			[
 				"unit",
@@ -1436,6 +583,10 @@
 			[
 				"scre",
 				"media/sass/screen.sass"
+			],
+			[
+				"tim",
+				"templates/order/timer.html"
 			],
 			[
 				"pro",
@@ -1569,10 +720,6 @@
 		"height": 500.0,
 		"selected_items":
 		[
-			[
-				"son",
-				"/home/rif/Documents/webframeworks/sonicalabs/sonicalabs.sublime-project"
-			]
 		],
 		"width": 380.0
 	},

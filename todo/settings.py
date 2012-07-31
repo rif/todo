@@ -46,7 +46,6 @@ LOGIN_REDIRECT_URL = '/accounts/%(username)s/'
 LOGIN_URL = '/accounts/signin/'
 LOGOUT_URL = '/accounts/signout/'
 
-#USERENA_WITHOUT_USERNAMES = True
 ANONYMOUS_USER_ID = -1
 AUTH_PROFILE_MODULE='authentication.TodoProfile'
 USERENA_ACTIVATION_REQUIRED = False
