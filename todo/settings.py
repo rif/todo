@@ -32,21 +32,21 @@ SITE_ID = 1
 USE_I18N = True
 USE_L10N = True
 
-STATIC_ROOT = rel('static')
+STATIC_ROOT = rel('../static')
 STATIC_URL = '/static/'
-MEDIA_ROOT = rel('static/upload')
+MEDIA_ROOT = rel('../static/upload')
 MEDIA_URL =  '/static/upload/'
 ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
 STATICFILES_DIRS = (
-    rel('media'),
+    rel('../media'),
 )
 
 LOGIN_REDIRECT_URL = '/accounts/%(username)s/'
 LOGIN_URL = '/accounts/signin/'
 LOGOUT_URL = '/accounts/signout/'
 
-USERENA_WITHOUT_USERNAMES = True
+#USERENA_WITHOUT_USERNAMES = True
 ANONYMOUS_USER_ID = -1
 AUTH_PROFILE_MODULE='authentication.TodoProfile'
 USERENA_ACTIVATION_REQUIRED = False
@@ -89,7 +89,7 @@ ROOT_URLCONF = 'todo.urls'
 WSGI_APPLICATION = 'todo.wsgi.application'
 
 TEMPLATE_DIRS = (
-    rel('templates'),
+    rel('../templates'),
 )
 
 
