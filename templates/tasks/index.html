@@ -25,6 +25,12 @@
                     <a class="edit-link btn btn-mini btn-info" href="{% url tasks:edit task.id %}">Edit</a>
                 </td>
             </tr>
+            {% empty %}
+                {% if not user.is_authenticated %}
+                    <tr><td>Login to view your tasks!</td><td></td><td></td></tr>
+                {% else %}
+                    <tr><td>No tasks for you, rejoice!</td><td></td><td></td></tr>
+                {% endif %}
             {% endfor %}
             </tbody>
         </table>

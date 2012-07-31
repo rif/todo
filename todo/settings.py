@@ -49,6 +49,7 @@ LOGOUT_URL = '/accounts/signout/'
 ANONYMOUS_USER_ID = -1
 AUTH_PROFILE_MODULE='authentication.TodoProfile'
 USERENA_ACTIVATION_REQUIRED = False
+USERENA_SIGNIN_REDIRECT_URL = "/"
 
 # List of finder classes that know how to find static files in
 # various locations.
