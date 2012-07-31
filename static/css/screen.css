@@ -1,0 +1,6 @@
+/*@import compass/reset */
+/* line 3, ../sass/screen.sass */
+footer a.bold {
+  font-weight: bold;
+  margin-right: 20px;
+}

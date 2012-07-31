@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans 'Calendar' %}{% endblock %}
+{% block extrastyles %}
+    <link href="{{ STATIC_URL }}css/fullcalendar.css" rel="stylesheet" type="text/css" />
+    <link href="{{ STATIC_URL }}css/fullcalendar.print.css" rel="stylesheet" media="print" type="text/css" />
+{% endblock %}
+{% block extrasscript %}
+    <script type='text/javascript' src='{{ STATIC_URL }}js/fullcalendar.min.js'></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#calendar').fullCalendar({
+            // put your options and callbacks here
+        })
+    });
+    </script>
+{% endblock %}
+{% block content %}
+    <div id='calendar'></div>
+{% endblock %}
