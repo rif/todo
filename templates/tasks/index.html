@@ -39,6 +39,7 @@
 <div class="row">
     <div class="span6">
         <div class="pagination">
+            {% if paginator.num_pages > 1 %}
             <ul>
                 {% if paginator.has_previous %}
                 <li><a href="?page={{ paginator.previous_page_number }}">Previous</a></li>
@@ -54,11 +55,14 @@
                 <li><a href="?page={{ paginator.next_page_number }}">Next</a></li>
                 {% endif %}
             </ul>
+            {% endif %}
         </div>
     </div>
     <div class="span4">
+        {% if user.is_authenticated %}
         <a class="btn edit-link" href="{% url tasks:new %}">New Task</a>
-    </div>
+        {% endif %}
+    </div>  
 </div> <!-- row -->
 <div class="modal fade hide" id="editModal">
   <div class="modal-header">

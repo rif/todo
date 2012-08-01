@@ -102,9 +102,10 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',    
     'south',
     'userena',
-    'guardian',    
+    'guardian',  
     # my_apps    
     'tasks',
+    'api',
 )
 
 if DEBUG:
