@@ -47,7 +47,7 @@ LOGIN_URL = '/accounts/signin/'
 LOGOUT_URL = '/accounts/signout/'
 
 ANONYMOUS_USER_ID = -1
-AUTH_PROFILE_MODULE='authentication.TodoProfile'
+AUTH_PROFILE_MODULE='tasks.TodoProfile'
 USERENA_ACTIVATION_REQUIRED = False
 USERENA_SIGNIN_REDIRECT_URL = "/"
 
@@ -99,18 +99,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
-    'django_extensions',
+    'django.contrib.staticfiles',    
     'south',
     'userena',
-    'guardian',
-    
-    # my_apps
-    'authentication',
+    'guardian',    
+    # my_apps    
     'tasks',
 )
 
