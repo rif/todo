@@ -21,11 +21,11 @@ curl -X POST --data 'title=test;priority=1' -u user:pass http://localhost:8000/a
 
 *Edit a task*
 
-curl -X PUT --data 'title=test;priority=10' -u user:pass http://localhost:8000/api/task/1/
+curl -X PUT --data 'title=test;priority=10' -u user:pass http://localhost:8000/api/tasks/1
 
 *Get a task*
 
-curl -X GET -u user:pass> http://localhost:8000/api/task/4/
+curl -X GET -u user:pass> http://localhost:8000/api/tasks/4
 
 Installation
 -------------

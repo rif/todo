@@ -7,7 +7,7 @@ from tasks.models import Task
 
 class TaskHandler(BaseHandler):
     "handles operations for specific tasks (view/edit/delete)"
-    allowed_methods = ('GET', 'PUT',  'DELETE')
+    allowed_methods = ('GET', 'PUT', 'POST', 'DELETE')
     fields = ('title', 'creation_date', 'priority')
     exclude = ('id', re.compile(r'^private_'))
     model = Task
@@ -17,11 +17,25 @@ class TaskHandler(BaseHandler):
         return len(task.title)
 
     def read(self, request, task_id):
-        task = Task.objects.get(pk=task_id)
-        return task
+        if task_id:
+            result = Task.objects.get(pk=task_id)
+        else:
+            result = Task.objects.filter(user=request.user)        
+        return result
+
+    def create(self, request, task_id):
+        if 'title' not in request.POST:
+            return rc.BAD_REQUEST
+        task = Task()
+        task.title = request.POST.get('title')
+        task.priority =  int(request.POST.get('priority')) if request.POST.get('priority') else 0
+        task.user = request.user
+        task.save()
+
+        return rc.CREATED
 
     @throttle(5, 10*60) # allow 5 times in 10 minutes
-    def update(self, request, task_id):
+    def update(self, request, task_id):        
         task = Task.objects.get(pk= task_id)
 
         if not request.user ==  task.user:
@@ -42,25 +56,3 @@ class TaskHandler(BaseHandler):
         task.delete()
 
         return rc.DELETED # returns HTTP 204
-
-class TaskListHandler(BaseHandler):
-    "handles operation for the list of tasks (ceation/listing)"
-    allowed_methods = ('GET', 'POST')
-    fields = ('title', 'creation_date', 'priority')
-    exclude = ('id', re.compile(r'^private_'))
-    model = Task
-    
-    def read(self, request):
-        tasks = Task.objects.filter(user=request.user)
-        return tasks
-
-    def create(self, request):
-        if 'title' not in request.POST:
-            return rc.BAD_REQUEST
-        task = Task()
-        task.title = request.POST.get('title')
-        task.priority =  int(request.POST.get('priority')) if request.POST.get('priority') else 0
-        task.user = request.user
-        task.save()
-
-        return rc.CREATED
