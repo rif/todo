@@ -3,13 +3,14 @@ TODO
 
 Simple TODO task list manager written in django.
 
-Features:
+Features
+----------
 - clean user interface
 - ajax creation/editing/deleting of tasks
 - REST api
 
-Examples:
-
+Examples
+------------
 *List tasks*
 curl -X GET -u <username>:<password> http://localhost:8000/api/tasks
 
