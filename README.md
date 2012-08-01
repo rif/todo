@@ -12,11 +12,12 @@ Features
 Examples
 ------------
 *List tasks*
-curl -X GET -u <username>:<password> http://localhost:8000/api/tasks
+
+curl -X GET -u <username>:<password> http://localhost:8000/api/tasks/
 
 *Create a task*
 
-curl -X POST --data 'title=test;priority=1' -u <username>:<password> http://localhost:8000/api/tasks
+curl -X POST --data 'title=test;priority=1' -u <username>:<password> http://localhost:8000/api/tasks/
 
 *Edit a task*
 
