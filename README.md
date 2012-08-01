@@ -13,17 +13,32 @@ Examples
 ------------
 *List tasks*
 
-curl -X GET -u <username>:<password> http://localhost:8000/api/tasks/
+curl -X GET -u user:pass http://localhost:8000/api/tasks/
 
 *Create a task*
 
-curl -X POST --data 'title=test;priority=1' -u <username>:<password> http://localhost:8000/api/tasks/
+curl -X POST --data 'title=test;priority=1' -u user:pass http://localhost:8000/api/tasks/
 
 *Edit a task*
 
-curl -X PUT --data 'title=test;priority=10' -u <username>:<password> http://localhost:8000/api/task/1/
+curl -X PUT --data 'title=test;priority=10' -u user:pass http://localhost:8000/api/task/1/
 
 *Get a task*
 
-curl -X GET -u <username>:<password> http://localhost:8000/api/task/4/
+curl -X GET -u user:pass> http://localhost:8000/api/task/4/
+
+Installation
+-------------
+
+mkvirtualenv --no-site-packages todo
+
+git clone git://github.com/rif/todo.git
+
+cd todo/
+
+pip install -r pip_requirements.txt
+
+./manage.py migrate
+
+./manage.py runserver
 
