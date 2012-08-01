@@ -6,6 +6,7 @@ from piston.utils import rc, throttle
 from tasks.models import Task
 
 class TaskHandler(BaseHandler):
+    "handles operations for specific tasks (view/edit/delete)"
     allowed_methods = ('GET', 'PUT',  'DELETE')
     fields = ('title', 'creation_date', 'priority')
     exclude = ('id', re.compile(r'^private_'))
@@ -43,6 +44,7 @@ class TaskHandler(BaseHandler):
         return rc.DELETED # returns HTTP 204
 
 class TaskListHandler(BaseHandler):
+    "handles operation for the list of tasks (ceation/listing)"
     allowed_methods = ('GET', 'POST')
     fields = ('title', 'creation_date', 'priority')
     exclude = ('id', re.compile(r'^private_'))

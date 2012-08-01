@@ -9,6 +9,7 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 @render_to('tasks/index.html')
 def index(request):
+    "listst the tasks with pagination"
     tasks = []
     if request.user.is_authenticated():
         tasks = Task.objects.filter(user=request.user)
@@ -27,7 +28,8 @@ def index(request):
 
 @render_to('tasks/new.html')
 @login_required
-def task_edit(request, task_id=None):   
+def task_edit(request, task_id=None):
+    "used for both creation and editing of a task"
     task = None
     if task_id:
         task = get_object_or_None(Task, pk=task_id)
@@ -48,6 +50,7 @@ def task_edit(request, task_id=None):
 @ajax_request
 @login_required
 def incr_priority(request, task_id):
+    "ajax view for incremeneting the priority for a task"
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
     if request.user != task.user: raise PermissionDenied()
@@ -58,6 +61,7 @@ def incr_priority(request, task_id):
 @ajax_request
 @login_required
 def decr_priority(request, task_id):
+    "ajax view for decrementing the priority for a task"
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
     if request.user != task.user: raise PermissionDenied()
@@ -68,6 +72,7 @@ def decr_priority(request, task_id):
 @ajax_request
 @login_required
 def delete(request, task_id):
+    "deletes the task"
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
     if request.user != task.user: raise PermissionDenied()

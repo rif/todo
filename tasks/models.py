@@ -3,10 +3,12 @@ from django.contrib.auth.models import User
 from userena.models import UserenaBaseProfile
 
 class TodoProfile(UserenaBaseProfile):
+    "used by userena for extra informations about the user"
     user = models.OneToOneField(User, unique=True, verbose_name='user', related_name='mentoria_profile')
     favourite_snack = models.CharField('favourite snack', max_length=5)
 
 class Task(models.Model):
+    "our single model that represents the task"
     title = models.CharField(max_length=250)
     creation_date = models.DateTimeField(editable=False, auto_now=True)
     priority = models.IntegerField(default=0)
