@@ -8,17 +8,31 @@ from django.db import models
 class Migration(SchemaMigration):
 
     def forwards(self, orm):
+        # Adding model 'TodoProfile'
+        db.create_table('tasks_todoprofile', (
+            ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
+            ('mugshot', self.gf('django.db.models.fields.files.ImageField')(max_length=100, blank=True)),
+            ('privacy', self.gf('django.db.models.fields.CharField')(default='registered', max_length=15)),
+            ('user', self.gf('django.db.models.fields.related.OneToOneField')(related_name='mentoria_profile', unique=True, to=orm['auth.User'])),
+            ('favourite_snack', self.gf('django.db.models.fields.CharField')(max_length=5)),
+        ))
+        db.send_create_signal('tasks', ['TodoProfile'])
+
         # Adding model 'Task'
         db.create_table('tasks_task', (
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
-            ('title', self.gf('django.db.models.fields.CharField')(max_length=100)),
+            ('title', self.gf('django.db.models.fields.CharField')(max_length=250)),
+            ('creation_date', self.gf('django.db.models.fields.DateTimeField')(auto_now=True, blank=True)),
             ('priority', self.gf('django.db.models.fields.IntegerField')(default=0)),
-            ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['auth.User'])),
+            ('user', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['auth.User'], null=True, blank=True)),
         ))
         db.send_create_signal('tasks', ['Task'])
 
 
     def backwards(self, orm):
+        # Deleting model 'TodoProfile'
+        db.delete_table('tasks_todoprofile')
+
         # Deleting model 'Task'
         db.delete_table('tasks_task')
 
@@ -61,11 +75,20 @@ class Migration(SchemaMigration):
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'})
         },
         'tasks.task': {
-            'Meta': {'object_name': 'Task'},
+            'Meta': {'ordering': "('-priority', '-creation_date')", 'object_name': 'Task'},
+            'creation_date': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'priority': ('django.db.models.fields.IntegerField', [], {'default': '0'}),
-            'title': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
-            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['auth.User']"})
+            'title': ('django.db.models.fields.CharField', [], {'max_length': '250'}),
+            'user': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['auth.User']", 'null': 'True', 'blank': 'True'})
+        },
+        'tasks.todoprofile': {
+            'Meta': {'object_name': 'TodoProfile'},
+            'favourite_snack': ('django.db.models.fields.CharField', [], {'max_length': '5'}),
+            'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
+            'mugshot': ('django.db.models.fields.files.ImageField', [], {'max_length': '100', 'blank': 'True'}),
+            'privacy': ('django.db.models.fields.CharField', [], {'default': "'registered'", 'max_length': '15'}),
+            'user': ('django.db.models.fields.related.OneToOneField', [], {'related_name': "'mentoria_profile'", 'unique': 'True', 'to': "orm['auth.User']"})
         }
     }
 

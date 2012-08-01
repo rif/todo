@@ -4,6 +4,7 @@ from django.core.exceptions import PermissionDenied
 from tasks.forms import TaskForm
 from tasks.models import Task
 from django.shortcuts import redirect
+from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 @render_to('tasks/index.html')
@@ -25,6 +26,7 @@ def index(request):
     return locals()
 
 @render_to('tasks/new.html')
+@login_required
 def task_edit(request, task_id=None):   
     task = None
     if task_id:
@@ -44,6 +46,7 @@ def task_edit(request, task_id=None):
     return locals()
 
 @ajax_request
+@login_required
 def incr_priority(request, task_id):
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
@@ -53,6 +56,7 @@ def incr_priority(request, task_id):
     return {'p': task.priority}
 
 @ajax_request
+@login_required
 def decr_priority(request, task_id):
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
@@ -62,6 +66,7 @@ def decr_priority(request, task_id):
     return {'p': task.priority}
 
 @ajax_request
+@login_required
 def delete(request, task_id):
     task = get_object_or_None(Task, id=task_id)
     if not task: return 0
