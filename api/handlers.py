@@ -7,7 +7,7 @@ from tasks.models import Task
 
 class TaskHandler(BaseHandler):
     allowed_methods = ('GET', 'PUT', 'POST', 'DELETE')
-    fields = ('title', 'creation_date', 'user', 'priority')
+    fields = ('title', 'creation_date', 'priority')
     exclude = ('id', re.compile(r'^private_'))
     model = Task
 
