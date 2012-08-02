@@ -40,5 +40,7 @@ pip install -r pip_requirements.txt
 
 ./manage.py migrate
 
+./manage.py collectstatic
+
 ./manage.py runserver
 
