@@ -27,6 +27,10 @@ curl -X PUT --data 'title=test;priority=10' -u user:pass http://localhost:8000/a
 
 curl -X GET -u user:pass> http://localhost:8000/api/tasks/4
 
+*Delete a task*
+
+curl -X DELETE -u user:pass> http://localhost:8000/api/tasks/4
+
 Installation
 -------------
 
